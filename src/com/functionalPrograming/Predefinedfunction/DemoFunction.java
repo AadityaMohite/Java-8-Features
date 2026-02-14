@@ -30,8 +30,12 @@ public class DemoFunction {
 		 return new Student(1, "Aadi", "Mumbai");
 	  };
 	
-	
-	 
+	  
+	  
+	  
+	  
+	Student students = stu.apply(new Student(1, "Aadi", "Mumbai"));
+	System.out.print(students);
 	  
 	  
 }

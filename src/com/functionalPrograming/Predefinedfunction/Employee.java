@@ -6,13 +6,13 @@ public class Employee {
   private int Employee_id;
   private String name;
   private String city;
-  private double marks;
-  public Employee(int employee_id, String name, String city, double marks) {
+  private double salary;
+  public Employee(int employee_id, String name, String city, double salary) {
 	super();
 	Employee_id = employee_id;
 	this.name = name;
 	this.city = city;
-	this.marks = marks;
+	this. salary = salary;
   }
   public int getEmployee_id() {
 	return Employee_id;
@@ -32,11 +32,11 @@ public class Employee {
   public void setCity(String city) {
 	this.city = city;
   }
-  public double getMarks() {
-	return marks;
+  public double getSalary() {
+	return salary;
   }
-  public void setMarks(double marks) {
-	this.marks = marks;
+  public void getSalary(double marks) {
+	this.salary = salary;
   }
   
   
